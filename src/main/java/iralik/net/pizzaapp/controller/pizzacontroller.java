@@ -10,7 +10,10 @@ public class pizzacontroller {
     public void getPizzas(){
         System.out.println("My pizza app");
     }
-
+    @GetMapping("/topings")
+    public void getTopings(){
+        System.out.println("My topping");
+    }
 
 
 
